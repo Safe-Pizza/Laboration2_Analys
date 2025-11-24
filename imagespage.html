@@ -14,8 +14,9 @@
     <div class="wrapper"><!--Wrapper för hela sidan-->
         <header>
             <div class="header">
-            <a class="logolink" href="index.html"><img id="logo" src="images/logotype.svg" alt=""></a>
-            <img id="header" src="images/header.png" alt="" /></div>
+                <a class="logolink" href="index.html"><img id="logo" src="images/logotype.svg" alt=""></a>
+                <img id="header" src="images/header.png" alt="" />
+            </div>
         </header>
         <!--Huvudnavigation-->
         <div class="mainnav">
@@ -27,26 +28,65 @@
                 </ul>
             </nav>
         </div>
-<!--Sidinnehåll-->
+        <!--Sidinnehåll-->
         <main class="main_imagespage">
             <h1>Bilder</h1>
             <article class="articleone">
                 <h2 class="h2_imagespage">Bild 1</h2>
-                <div class="article_imgedit"><img src="images/bildserie003.jpg" alt="en kvinna som klättar på en klättervägg" /></div>
-                <div class="article_imgorg"><img src="images/bildserie003_original.jpg" alt="en kvinna som klättar på en klättervägg" /></div>
-                <p class="p_article">Bild 1 är roterad och beskuren. Kontrast, ljusstyrka, och färgbalans är justerad och färgen är ändrad på alla rosa klättergrepp.</p>
+                <picture class="article_imgedit">
+                    <source media="(min-width: 600px)" srcset="images/bildserie003_1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bildserie003_1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bildserie003_300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bildserie003_300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bildserie003_1000.jpg" alt="en kvinna som klättar på en klättervägg" />
+                </picture>
+                <picture class="article_imgorg">
+                    <source media="(min-width: 600px)" srcset="images/bilserie003_original1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bilserie003_original1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bilserie003_original300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bilserie003_original300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bilserie003_original1000.jpg" alt="en kvinna som klättar på en klättervägg" />
+                </picture>
+                <p class="p_article">Bild 1 är roterad och beskuren. Kontrast, ljusstyrka, och färgbalans är justerad
+                    och färgen är ändrad på alla rosa klättergrepp.</p>
             </article>
             <article class="articletwo">
                 <h2 class="h2_imagespage">Bild 2</h2>
-                <div class="article_imgedit"><img src="images/bildserie007.jpg" alt="kanal med förankrade båtar som följer en gata med kedjehus" /></div>
-               <div class="article_imgorg"><img src="images/bildserie007_original.jpg" alt="kanal med förankrade båtar som följer en gata med kedjehus" /></div>
-                <p class="p_article">Bild 2 är beskuren. Färgbalans, kontrast, ljusstyrka, nyans och mättnad är justerad. Flygplanet är borttaget.</p>
+                <picture class="article_imgedit">
+                    <source media="(min-width: 600px)" srcset="images/bildserie007_1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bildserie007_1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bildserie007_300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bildserie007_300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bildserie003_1000.jpg" alt="kanal med förankrade båtar som följer en gata med kedjehus" />
+                </picture>
+                <picture class="article_imgorg">
+                    <source media="(min-width: 600px)" srcset="images/bilserie007_original1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bilserie007_original1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bilserie007_original300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bilserie007_original300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bilserie007_original1000.jpg" alt="kanal med förankrade båtar som följer en gata med kedjehus" />
+                </picture>
+                <p class="p_article">Bild 2 är beskuren. Färgbalans, kontrast, ljusstyrka, nyans och mättnad är
+                    justerad. Flygplanet är borttaget.</p>
             </article>
             <article class="articlethree">
                 <h2 class="h2_imagespage">Bild 3</h2>
-                <div class="article_imgedit"><img src="images/bildserie015.jpg" alt="en man på ett berg som med gest visar att han bestigit berget" /></div>
-                <div class="article_imgorg"><img src="images/bildserie015_original.jpg" alt="en man på ett berg som med gest visar att han bestigit berget" /></div>
-                <p class="p_article">Bild 3 är roterad och beskuren. Kontrast, ljusstyrka, färgbalans och mättnad är justerad. Ljusa strecket är borttaget.</p>
+                <picture class="article_imgedit">
+                    <source media="(min-width: 600px)" srcset="images/bildserie015_1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bildserie015_1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bildserie015_300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bildserie015_300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bildserie003_1000.jpg" alt="en man på ett berg som med gest visar att han bestigit berget" />
+                </picture>
+                <picture class="article_imgorg">
+                    <source media="(min-width: 600px)" srcset="images/bilserie015_original1000.webp" file="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/bilserie015_original1000.jpg" file="image/jpg">
+                    <source media="(min-width: 300px)" srcset="images/bilserie015_original300.webp" file="image/webp">
+                    <source media="(min-width: 300px)" srcset="images/bilserie015_original300.jpg" file="image/jpg">
+                    <img class="img007index" src="images/bilserie015_original1000.jpg" alt="en man på ett berg som med gest visar att han bestigit berget" />
+                </picture>
+                <p class="p_article">Bild 3 är roterad och beskuren. Kontrast, ljusstyrka, färgbalans och mättnad är
+                    justerad. Ljusa strecket är borttaget.</p>
             </article>
         </main>
         <footer>
