@@ -96,7 +96,8 @@ li a:hover {
 /*Inställningar mobil*/
 main {
     display: grid;
-    width: 100%;
+    width: 98%;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
@@ -107,7 +108,9 @@ main {
 }
 
 .main_imagespage img {
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -147,6 +150,7 @@ main {
 .articleone {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2%;
 }
 
 .h2_imagespage {
@@ -169,12 +173,14 @@ main {
 .articletwo {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2%;
 }
 
 /*Grid imagespage .articlethree*/
 .articlethree {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2%;
 }
 
 /*Grid about*/
@@ -215,7 +221,8 @@ main {
     }
 
     .main_imagespage img {
-        width: 90%;
+        width: 100%;
+        max-width: 1000px;
     }
 
     .main_aboutme img {
