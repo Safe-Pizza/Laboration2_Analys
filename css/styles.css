@@ -116,6 +116,7 @@ main {
 
 .main_aboutme img {
     width: 100%;
+    height: auto;
 }
 
 /*Grid index section .info*/
@@ -226,7 +227,7 @@ main {
     }
 
     .main_aboutme img {
-        width: 70%;
+        width: 100%;
     }
 
     /*Grid index section .info*/
