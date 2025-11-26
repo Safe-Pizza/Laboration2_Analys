@@ -16,7 +16,8 @@
             <div class="header">
                 <a class="logolink" href="index.html"><img id="logo" src="images/logotype.svg" alt=""></a>
                 <picture>
-                    <source srcset="images/header.webp" type="image/webp">
+                    <source media="(min-width: 600px)" srcset="images/header.webp" type="image/webp">
+                    <source media="(max-width: 599px)" srcset="images/header_599.webp" type="image/webp">
                     <img id="headerimg" src="images/header.png" alt="" />
                 </picture>
             </div>
